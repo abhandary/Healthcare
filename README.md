@@ -74,8 +74,10 @@ The app currently does not support use of passcode or touch ID, however this fea
 ### Try It!
 
 You can use the following credentials or create your own at https://service.smarthealthit.org/private/Login
-username: abhandary
-password: test123
+
+* username: abhandary
+* password: test123
+
 [Appetize.io Demo](https://appetize.io/app/7nqcczhqxuqpgkdu7gcbq5e5d0)
 
 ### Security
