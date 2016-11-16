@@ -78,7 +78,7 @@ You can use the following credentials or create your own at https://service.smar
 * *username:* abhandary
 * *password:* test123
 
-[Appetize.io Demo](https://appetize.io/app/7nqcczhqxuqpgkdu7gcbq5e5d0)
+[Appetize.io Demo](https://appetize.io/app/w3x091u0416az51n4mdvmxw23m)
 
 ### Security
 The app provides login and authentication using a safe and secure Open ID Authorization server. You will need to register for an openID account to login and use the app. The registration can be done on the app or using the registration page at https://service.smarthealthit.org/private/Login
