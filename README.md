@@ -71,6 +71,13 @@ The app currently does not support use of passcode or touch ID, however this fea
 ![Settings Screen](/images/demo.gif)
 
 
+### Try It!
+
+You can use the following credentials or create your own at https://service.smarthealthit.org/private/Login
+username: abhandary
+password: test123
+[Appetize.io Demo](https://appetize.io/app/7nqcczhqxuqpgkdu7gcbq5e5d0)
+
 ### Security
 The app provides login and authentication using a safe and secure Open ID Authorization server. You will need to register for an openID account to login and use the app. The registration can be done on the app or using the registration page at https://service.smarthealthit.org/private/Login
 
@@ -100,5 +107,7 @@ Please contact me at akshay.bhandary@gmail.com
 ### Acknowledgements
 This app is powered by the open source Swift SMART FHIR framework provided by https://github.com/smart-on-fhir/Swift-FHIR. 
 
+License.
 
+[Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/) Please feel free to copy and redistribute the content on this page or adapt for any purpose, commercial included. Give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests that Pegasus Health endorses you or your use.
 
