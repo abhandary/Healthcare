@@ -97,7 +97,7 @@ The app does not store any patient data on the user’s phone.
 
 
 
-To run this app you will need a device running iOS version 7.0 or newer. 
+To run this app you will need a device running iOS version 8.0 or newer. 
 
 
 
