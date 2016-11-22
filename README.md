@@ -1,4 +1,5 @@
 # Patient Summary
+
 ### Overview
 Patient Summary provides an overview of patient health information to care coordinators as well as care givers. You can search for a patient by name, gender or identifier or choose from a list of all patients. You can retrieve encounters, immunizations, procedures, conditions, allergies or intolerances, medication orders, reports, and observations. The application provides secure access to patient data by providing authentication using OpenID.
 
