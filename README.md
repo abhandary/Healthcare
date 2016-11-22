@@ -88,7 +88,7 @@ The app provides login and authentication using a safe and secure Open ID Author
 
 
 ### Patient Data
-The app does not store any patient data on the user’s phone. 
+The app does not store any patient data on the user’s phone. Please note that in the app showcased the patient data is fetched from a sandboxed environment and is not real patient data. 
 
 
 
