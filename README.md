@@ -111,5 +111,5 @@ This app is powered by the open source Swift SMART FHIR framework provided by ht
 
 ### License.
 
-[Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/) Please feel free to copy and redistribute the content on this page or adapt for any purpose, commercial included. Give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests that Pegasus Health endorses you or your use.
+[Creative Commons 4.0](https://creativecommons.org/licenses/by/4.0/) Please feel free to copy and redistribute the content on this page or adapt for any purpose, commercial included. Give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests that I endorse you or your use.
 
