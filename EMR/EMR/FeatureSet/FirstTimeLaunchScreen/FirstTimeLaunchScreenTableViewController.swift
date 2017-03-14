@@ -75,6 +75,7 @@ class FirstTimeLaunchScreenTableViewController: UITableViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
+        
         if let navVC = segue.destinationViewController as? UINavigationController,
             vc = navVC.topViewController as? PatientListViewController  {
             
