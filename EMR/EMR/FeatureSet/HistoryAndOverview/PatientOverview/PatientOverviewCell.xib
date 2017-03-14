@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="166" id="AZx-Bp-x3m" customClass="PatientOverviewCell" customModule="EMR">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="166"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AZx-Bp-x3m" id="M4d-Im-A5w">
+                <frame key="frameInset" width="320" height="165"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmL-aO-OO6">
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GkK-cz-L4m">
+                                <color key="backgroundColor" red="1" green="0.68576203729999996" blue="0.16351306030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="3" id="Q5n-hn-bMn"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vGj-fK-lG6">
+                                <color key="backgroundColor" red="1" green="0.68576203729999996" blue="0.16351306030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="3" id="jga-sr-Mpy"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grand Canyon officials investigate squirrel-kicking video." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1N-Ua-yNH" userLabel="Patient Name">
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="d9e-QL-qS1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                <color key="textColor" red="0.090196078431372548" green="0.36862745098039218" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOz-Rw-nVH" userLabel="Patient Brief Description">
+                                <string key="text">Authorities are looking into a viral Internet video that shows a man kicking a squirrel off what appears to be the edge of the Grand Canyon.</string>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="16"/>
+                                <color key="textColor" red="0.090196078431372548" green="0.36862745098039218" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ZOz-Rw-nVH" secondAttribute="bottom" constant="20" id="2hv-bB-Ail"/>
+                            <constraint firstItem="GkK-cz-L4m" firstAttribute="top" secondItem="gmL-aO-OO6" secondAttribute="top" id="FcS-wI-Xrq"/>
+                            <constraint firstAttribute="bottom" secondItem="vGj-fK-lG6" secondAttribute="bottom" id="JDu-Em-1jm"/>
+                            <constraint firstItem="ZOz-Rw-nVH" firstAttribute="leading" secondItem="gmL-aO-OO6" secondAttribute="leading" constant="10" id="KNR-zV-CAU"/>
+                            <constraint firstAttribute="trailing" secondItem="l1N-Ua-yNH" secondAttribute="trailing" constant="8" id="MEF-36-iII"/>
+                            <constraint firstItem="ZOz-Rw-nVH" firstAttribute="top" secondItem="l1N-Ua-yNH" secondAttribute="bottom" constant="5" id="SeU-AM-wuE"/>
+                            <constraint firstItem="l1N-Ua-yNH" firstAttribute="leading" secondItem="gmL-aO-OO6" secondAttribute="leading" constant="8" id="Sph-oZ-y6v"/>
+                            <constraint firstAttribute="trailing" secondItem="ZOz-Rw-nVH" secondAttribute="trailing" constant="10" id="TFj-i0-SEv"/>
+                            <constraint firstAttribute="trailing" secondItem="GkK-cz-L4m" secondAttribute="trailing" id="gfi-tZ-8aW"/>
+                            <constraint firstAttribute="trailing" secondItem="vGj-fK-lG6" secondAttribute="trailing" id="t3I-ha-Yp7"/>
+                            <constraint firstItem="vGj-fK-lG6" firstAttribute="leading" secondItem="gmL-aO-OO6" secondAttribute="leading" id="vT5-Ig-Ku7"/>
+                            <constraint firstItem="l1N-Ua-yNH" firstAttribute="top" secondItem="GkK-cz-L4m" secondAttribute="bottom" constant="5" id="vwi-FL-fv9"/>
+                            <constraint firstItem="GkK-cz-L4m" firstAttribute="leading" secondItem="gmL-aO-OO6" secondAttribute="leading" id="wsy-jq-CyH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="gmL-aO-OO6" secondAttribute="trailing" constant="8" id="0iF-ev-dTE"/>
+                    <constraint firstItem="gmL-aO-OO6" firstAttribute="top" secondItem="M4d-Im-A5w" secondAttribute="top" constant="4" id="Gpr-zq-XMY"/>
+                    <constraint firstAttribute="bottom" secondItem="gmL-aO-OO6" secondAttribute="bottom" constant="4" id="flT-IK-V5a"/>
+                    <constraint firstItem="gmL-aO-OO6" firstAttribute="leading" secondItem="M4d-Im-A5w" secondAttribute="leading" constant="8" id="jFC-ZY-B6G"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="patientBriefDescription" destination="ZOz-Rw-nVH" id="Wvc-PJ-xx0"/>
+                <outlet property="patientName" destination="l1N-Ua-yNH" id="US3-BX-rts"/>
+            </connections>
+            <point key="canvasLocation" x="261" y="341"/>
+        </tableViewCell>
+    </objects>
+</document>

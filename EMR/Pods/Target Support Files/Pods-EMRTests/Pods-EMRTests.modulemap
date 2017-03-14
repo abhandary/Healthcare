@@ -1,0 +1,6 @@
+framework module Pods_EMRTests {
+  umbrella header "Pods-EMRTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

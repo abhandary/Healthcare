@@ -1,0 +1,39 @@
+PODS:
+  - ReachabilitySwift (2.4)
+  - SMART (2.4)
+  - SwiftSpinner (0.9.5)
+  - SWRevealViewController (2.3.0)
+  - TOWebViewController (2.2.6):
+    - TOWebViewController/Core (= 2.2.6)
+  - TOWebViewController/Core (2.2.6)
+  - XCGLogger (3.6.0)
+
+DEPENDENCIES:
+  - ReachabilitySwift (~> 2.4)
+  - SMART (from `git@github.com:smart-on-fhir/Swift-SMART.git`, tag `2.4.0`)
+  - SwiftSpinner (~> 0.9)
+  - SWRevealViewController
+  - TOWebViewController
+  - XCGLogger (~> 3.3)
+
+EXTERNAL SOURCES:
+  SMART:
+    :git: git@github.com:smart-on-fhir/Swift-SMART.git
+    :tag: 2.4.0
+
+CHECKOUT OPTIONS:
+  SMART:
+    :git: git@github.com:smart-on-fhir/Swift-SMART.git
+    :tag: 2.4.0
+
+SPEC CHECKSUMS:
+  ReachabilitySwift: dc7452dab85ff881904215e1a113326ad8d07beb
+  SMART: 909b30cf7369e2df4c3301a1ffb1d61292ab532c
+  SwiftSpinner: c6585a0ae5c67eb33e737695cce88f0262008cce
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  TOWebViewController: a29908019f7e0e0f8eccfab8a1ee8dcdf4fc5aac
+  XCGLogger: 53a3efe22e228e8b25ed8184bc074c2b06d48490
+
+PODFILE CHECKSUM: 9795bb1d33981fca5a105591fe33ab526ddf2260
+
+COCOAPODS: 1.0.1
